@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/test/static/css/main.a617e044.chunk.css",
-    "main.js": "/test/static/js/main.07b69e76.chunk.js",
-    "main.js.map": "/test/static/js/main.07b69e76.chunk.js.map",
-    "runtime-main.js": "/test/static/js/runtime-main.0d6e0fa8.js",
-    "runtime-main.js.map": "/test/static/js/runtime-main.0d6e0fa8.js.map",
-    "static/js/2.53da3dfa.chunk.js": "/test/static/js/2.53da3dfa.chunk.js",
-    "static/js/2.53da3dfa.chunk.js.map": "/test/static/js/2.53da3dfa.chunk.js.map",
-    "static/js/3.5333447d.chunk.js": "/test/static/js/3.5333447d.chunk.js",
-    "static/js/3.5333447d.chunk.js.map": "/test/static/js/3.5333447d.chunk.js.map",
-    "index.html": "/test/index.html",
-    "static/css/main.a617e044.chunk.css.map": "/test/static/css/main.a617e044.chunk.css.map",
-    "static/js/2.53da3dfa.chunk.js.LICENSE.txt": "/test/static/js/2.53da3dfa.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/test/static/media/logo.6ce24c58.svg"
+    "main.css": "/rstarr-indeed.github.io/static/css/main.a617e044.chunk.css",
+    "main.js": "/rstarr-indeed.github.io/static/js/main.07b69e76.chunk.js",
+    "main.js.map": "/rstarr-indeed.github.io/static/js/main.07b69e76.chunk.js.map",
+    "runtime-main.js": "/rstarr-indeed.github.io/static/js/runtime-main.7d1d8a18.js",
+    "runtime-main.js.map": "/rstarr-indeed.github.io/static/js/runtime-main.7d1d8a18.js.map",
+    "static/js/2.53da3dfa.chunk.js": "/rstarr-indeed.github.io/static/js/2.53da3dfa.chunk.js",
+    "static/js/2.53da3dfa.chunk.js.map": "/rstarr-indeed.github.io/static/js/2.53da3dfa.chunk.js.map",
+    "static/js/3.5333447d.chunk.js": "/rstarr-indeed.github.io/static/js/3.5333447d.chunk.js",
+    "static/js/3.5333447d.chunk.js.map": "/rstarr-indeed.github.io/static/js/3.5333447d.chunk.js.map",
+    "index.html": "/rstarr-indeed.github.io/index.html",
+    "static/css/main.a617e044.chunk.css.map": "/rstarr-indeed.github.io/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.53da3dfa.chunk.js.LICENSE.txt": "/rstarr-indeed.github.io/static/js/2.53da3dfa.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/rstarr-indeed.github.io/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.0d6e0fa8.js",
+    "static/js/runtime-main.7d1d8a18.js",
     "static/js/2.53da3dfa.chunk.js",
     "static/css/main.a617e044.chunk.css",
     "static/js/main.07b69e76.chunk.js"
