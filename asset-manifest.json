@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.5fadef85.chunk.css",
+    "main.css": "/static/css/main.b58bb185.chunk.css",
     "main.js": "/static/js/main.a71c2abd.chunk.js",
     "main.js.map": "/static/js/main.a71c2abd.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.0c9d0555.js",
@@ -10,14 +10,14 @@
     "static/js/3.5333447d.chunk.js": "/static/js/3.5333447d.chunk.js",
     "static/js/3.5333447d.chunk.js.map": "/static/js/3.5333447d.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.5fadef85.chunk.css.map": "/static/css/main.5fadef85.chunk.css.map",
+    "static/css/main.b58bb185.chunk.css.map": "/static/css/main.b58bb185.chunk.css.map",
     "static/js/2.c5e72cac.chunk.js.LICENSE.txt": "/static/js/2.c5e72cac.chunk.js.LICENSE.txt",
     "static/media/ghostwritingStationeryLogo.bc3a845c.png": "/static/media/ghostwritingStationeryLogo.bc3a845c.png"
   },
   "entrypoints": [
     "static/js/runtime-main.0c9d0555.js",
     "static/js/2.c5e72cac.chunk.js",
-    "static/css/main.5fadef85.chunk.css",
+    "static/css/main.b58bb185.chunk.css",
     "static/js/main.a71c2abd.chunk.js"
   ]
 }
