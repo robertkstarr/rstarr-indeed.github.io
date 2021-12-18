@@ -1,7 +1,6 @@
-import starrGhostwritingLogo from "./Images/starrGhostwritingLogo.png";
 import "./App.css";
 import { useEffect } from "react";
-import Obfuscate from "react-obfuscate";
+import Home from "./Home/Home";
 
 function App() {
   useEffect(() => {
@@ -9,15 +8,8 @@ function App() {
   }, []);
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={starrGhostwritingLogo} className="App-logo" alt="logo" />
-        <div className={"App-link"}>
-          CONTACT:
-          <div>
-            <Obfuscate email={"robert@robertkstarr.com"} />
-          </div>
-        </div>
-      </header>
+      <header className="App-header"></header>
+      <Home />
     </div>
   );
 }
