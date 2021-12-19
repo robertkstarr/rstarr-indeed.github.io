@@ -1,0 +1,11 @@
+.SiteFooter {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.FooterItem {
+    padding: 2.5px;
+}

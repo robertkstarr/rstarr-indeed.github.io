@@ -1,40 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 .App {
+    display: flex;
     text-align: center;
     background-color: #404653;
     height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    font-family: Raleway;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.App-logo {
-    height: 40vmin;
-    pointer-events: none;
+.SiteHeader {
+    height: 7%;
 }
 
 .Home {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: #000000;
+    height: 88%;
 }
 
-.App-link {
-    color: #000000;
-    font-family: Raleway;
-}
-
-a {
-    color: #bf1e2e;
-}
-
-@keyframes App-logo-spin {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
+.SiteFooter {
+    height: 5vh;
 }

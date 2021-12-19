@@ -1,0 +1,12 @@
+.SiteHeader {
+    display: inline-flex;
+    width: 80%;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: larger;
+    font-weight: bolder;
+    color: #ffffff;
+}
+

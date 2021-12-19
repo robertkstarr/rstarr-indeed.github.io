@@ -1,6 +1,8 @@
 import "./App.css";
 import { useEffect } from "react";
 import Home from "./Home/Home";
+import SiteHeader from "./SiteHeader/SiteHeader";
+import SiteFooter from "./SiteFooter/SiteFooter";
 
 function App() {
   useEffect(() => {
@@ -8,8 +10,9 @@ function App() {
   }, []);
   return (
     <div className="App">
-      <header className="App-header"></header>
+      <SiteHeader />
       <Home />
+      <SiteFooter />
     </div>
   );
 }

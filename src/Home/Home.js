@@ -1,3 +1,4 @@
+import "./Home.css";
 import starrGhostwritingLogo from "../Images/starrGhostwritingLogo.png";
 import Obfuscate from "react-obfuscate";
 
