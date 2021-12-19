@@ -1,9 +1,10 @@
 .HeaderItem {
     display: flex;
-    width: 15%;
     height: 100%;
     justify-content: center;
     align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .HeaderItem:hover {
