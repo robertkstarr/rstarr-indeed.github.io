@@ -7,6 +7,12 @@
     padding-right: 10px;
 }
 
+.HeaderItem.isMobile {
+    height: 50%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
 .HeaderItem:hover {
     color: #000000;
     background-color: #bf1e2e;
