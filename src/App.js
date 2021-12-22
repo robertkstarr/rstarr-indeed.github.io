@@ -1,8 +1,9 @@
 import "./App.css";
 import { useEffect } from "react";
-import Home from "./Home/Home";
 import SiteHeader from "./SiteHeader/SiteHeader";
 import SiteFooter from "./SiteFooter/SiteFooter";
+import Provider from "./Context/Provider";
+import Body from "./Home/Body/Body";
 
 function App() {
   useEffect(() => {
@@ -10,9 +11,11 @@ function App() {
   }, []);
   return (
     <div className="App">
-      <SiteHeader />
-      <Home />
-      <SiteFooter />
+      <Provider>
+        <SiteHeader />
+        <Body />
+        <SiteFooter />
+      </Provider>
     </div>
   );
 }

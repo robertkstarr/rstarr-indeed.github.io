@@ -3,6 +3,7 @@ import "./SiteFooter.css";
 
 const SiteFooter = () => {
   const year = new Date().getFullYear();
+
   return (
     <div className={"SiteFooter"}>
       <div className={"FooterItem"}>© Copyright {year} by Robert K. Starr</div>
