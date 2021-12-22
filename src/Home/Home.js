@@ -5,7 +5,7 @@ import Obfuscate from "react-obfuscate";
 export const HOME_LABEL = "Home";
 const Home = () => {
   return (
-    <div className={"Home"}>
+    <div className={"Home"} data-test={"HomeElement"}>
       <img
         data-test={"logo"}
         src={starrGhostwritingLogo}

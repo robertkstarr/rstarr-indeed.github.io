@@ -3,6 +3,7 @@ import "./Body.css";
 import { Context } from "../../Context/Provider";
 import Home, { HOME_LABEL } from "../Home";
 
+// NEED TO IMPLEMENT UNIT TESTS
 const Body = () => {
   const { currentPage } = useContext(Context);
 
