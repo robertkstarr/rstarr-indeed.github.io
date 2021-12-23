@@ -5,6 +5,7 @@ import Home, { HOME_LABEL } from "./Home/Home";
 import Samples, { SAMPLES_LABEL } from "./Samples/Samples";
 import Works, { WORKS_LABEL } from "./Works/Works";
 import Contact, { CONTACT_LABEL } from "./Contact/Contact";
+import About, { ABOUT_LABEL } from "./About/About";
 
 const Body = () => {
   const { currentPage } = useContext(Context);
@@ -17,6 +18,8 @@ const Body = () => {
         return <Samples />;
       case WORKS_LABEL:
         return <Works />;
+      case ABOUT_LABEL:
+        return <About />;
       case CONTACT_LABEL:
         return <Contact />;
       default:
