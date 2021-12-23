@@ -9,7 +9,7 @@ const SiteHeader = () => {
   return (
     <header className={`SiteHeader ${deviceType}`}>
       {headerItems.map((object) => (
-        <HeaderItem headerText={object} />
+        <HeaderItem key={object} headerText={object} />
       ))}
     </header>
   );
