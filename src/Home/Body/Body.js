@@ -12,7 +12,7 @@ const Body = () => {
       case HOME_LABEL:
         return <Home />;
       default:
-        return <div>Something went wrong</div>;
+        return <div className={"Error"}>Something went wrong</div>;
     }
   };
   return <div className={"Body"}>{selectPage()}</div>;
