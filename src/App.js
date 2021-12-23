@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import SiteHeader from "./SiteHeader/SiteHeader";
 import SiteFooter from "./SiteFooter/SiteFooter";
 import Provider from "./Context/Provider";
-import Body from "./Home/Body/Body";
+import Body from "./Body/Body";
 
 function App() {
   useEffect(() => {

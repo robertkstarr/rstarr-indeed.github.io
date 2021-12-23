@@ -1,8 +1,8 @@
 import { configure, mount } from "enzyme";
 import Body from "./Body";
-import Provider from "../../Context/Provider";
+import Provider from "../Context/Provider";
 import Adapter from "enzyme-adapter-react-16";
-import { findByTestAttr } from "../../Util/testingUtillities";
+import { findByTestAttr } from "../Util/testingUtillities";
 
 configure({ adapter: new Adapter() });
 

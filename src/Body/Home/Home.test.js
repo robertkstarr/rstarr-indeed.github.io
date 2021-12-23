@@ -1,6 +1,6 @@
 import { configure, mount, shallow } from "enzyme";
 import Home from "./Home";
-import { findByTestAttr } from "../Util/testingUtillities";
+import { findByTestAttr } from "../../Util/testingUtillities";
 import Adapter from "enzyme-adapter-react-16";
 
 configure({ adapter: new Adapter() });
