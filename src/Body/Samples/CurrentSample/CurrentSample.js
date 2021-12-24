@@ -1,10 +1,10 @@
 import React from "react";
 import "./CurrentSample.css";
 
-const CurrentSample = ({ children }) => {
+const CurrentSample = ({ children, title = "Untitled" }) => {
   return (
     <div className={"CurrentSample"}>
-      <div className={"SampleTitle"}>Title</div>
+      <div className={"SampleTitle"}>{title}</div>
       <div className={"SampleText"}> {children}</div>
     </div>
   );
