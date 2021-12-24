@@ -1,0 +1,9 @@
+.Services {
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    width: 60%;
+    height: 95%;
+    justify-content: left;
+    text-align: left;
+}
