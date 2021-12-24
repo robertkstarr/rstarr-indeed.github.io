@@ -1,0 +1,12 @@
+.SampleItem {
+    color: white;
+    font-weight: bolder;
+    padding: 1rem;
+    width: 100%;
+}
+
+.SampleItem:hover {
+    color: #000000;
+    background-color: #bf1e2e;
+    cursor: pointer;
+}

@@ -10,6 +10,7 @@
     "react": "^16.14.0",
     "react-device-detect": "^2.1.2",
     "react-dom": "^16.14.0",
+    "react-lorem-ipsum": "^1.4.9",
     "react-obfuscate": "^3.6.8",
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.2"

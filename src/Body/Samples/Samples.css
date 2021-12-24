@@ -1,7 +1,17 @@
 .Samples {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     width: 100%;
     height: 100%;
-    justify-content: center;
+    justify-content: space-between;
+}
+
+.SampleList {
+    width: 10%;
+    padding: 2rem 0rem 0rem 2rem;
+}
+
+.CurrentSample {
+    width: 90%;
+    border: 5rem;
 }
