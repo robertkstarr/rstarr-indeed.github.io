@@ -1,6 +1,6 @@
 import React from "react";
 import "./Samples.css";
-import SampleList from "./SampleList";
+import SampleList from "./SampleList/SampleList";
 import CurrentSample from "./CurrentSample/CurrentSample";
 import LoremIpsum from "react-lorem-ipsum";
 
