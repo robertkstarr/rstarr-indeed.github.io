@@ -6,6 +6,7 @@ import Samples, { SAMPLES_LABEL } from "./Samples/Samples";
 import Works, { WORKS_LABEL } from "./Works/Works";
 import Contact, { CONTACT_LABEL } from "./Contact/Contact";
 import About, { ABOUT_LABEL } from "./About/About";
+import Services, { SERVICES_LABEL } from "./Services/Services";
 
 const Body = () => {
   const { currentPage } = useContext(Context);
@@ -22,6 +23,8 @@ const Body = () => {
         return <About />;
       case CONTACT_LABEL:
         return <Contact />;
+      case SERVICES_LABEL:
+        return <Services />;
       default:
         return <div className={"Error"}>Something went wrong</div>;
     }
