@@ -1,7 +1,8 @@
 import React from "react";
 import "./SampleList.css";
+import { AVAILABLE_WRITING_SAMPLES } from "../WritingSamples/WritingSampleUtils";
 
-const AVAILABLE_SAMPLES = ["Sample 2", "Sample 1", "Sample 3"].sort((a, b) => {
+const AVAILABLE_SAMPLES = AVAILABLE_WRITING_SAMPLES.sort((a, b) => {
   return a.toLowerCase().localeCompare(b.toLowerCase());
 });
 
