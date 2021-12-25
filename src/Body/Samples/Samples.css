@@ -8,10 +8,10 @@
 
 .SampleList {
     width: 10%;
-    padding: 2rem 0rem 0rem 2rem;
+    padding: 4rem 0rem 2rem 2rem;
 }
 
 .CurrentSample {
-    width: 90%;
+    width: 60%;
     border: 5rem;
 }
