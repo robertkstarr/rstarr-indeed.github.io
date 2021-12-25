@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./CurrentSample.css";
+import { Context } from "../../../Context/Provider";
 
-const CurrentSample = ({ children, title = "Untitled" }) => {
+const CurrentSample = ({ children }) => {
+  const { currentSampleTitle } = useContext(Context);
   return (
     <div className={"CurrentSample"}>
-      <div className={"SampleTitle"}>{title}</div>
+      <div className={"SampleTitle"}>{currentSampleTitle}</div>
       <div className={"SampleText"}> {children}</div>
     </div>
   );
