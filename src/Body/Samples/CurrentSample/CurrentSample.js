@@ -5,9 +5,11 @@ import { Context } from "../../../Context/Provider";
 const CurrentSample = ({ children }) => {
   const { currentSampleTitle } = useContext(Context);
   return (
-    <div className={"CurrentSample"}>
-      <div className={"SampleTitle"}>{currentSampleTitle}</div>
-      <div className={"SampleText"}> {children}</div>
+    <div className={"CurrentSampleContainer"}>
+      <div className={"CurrentSample"}>
+        <div className={"SampleTitle"}>{currentSampleTitle}</div>
+        <div className={"SampleText"}> {children}</div>
+      </div>
     </div>
   );
 };
