@@ -1,13 +1,14 @@
 import React, { useContext } from "react";
 import "./SampleList.css";
-import { AVAILABLE_WRITING_SAMPLES } from "../WritingSamples/WritingSampleUtils";
+import writingSamples from "../WritingSamples/WritingSamples";
+import { AVAILABLE_WRITING_SAMPLE_KEYS } from "../WritingSamples/WritingSampleUtils";
 import { Context } from "../../../Context/Provider";
 
 const SampleList = () => {
   const { CurrentSampleTitle } = useContext(Context);
   return (
     <div className={"SampleList"}>
-      {AVAILABLE_WRITING_SAMPLES.map((sample) => {
+      {AVAILABLE_WRITING_SAMPLE_KEYS.map((sample) => {
         return (
           <div
             key={sample}
@@ -16,7 +17,7 @@ const SampleList = () => {
               CurrentSampleTitle(sample);
             }}
           >
-            {sample}
+            {writingSamples[sample].Title}
           </div>
         );
       })}
