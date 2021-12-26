@@ -5,7 +5,7 @@ export const Context = createContext();
 
 export const Provider = ({ children }) => {
   const [currentPage, setCurrentPage] = useState("Home");
-  const [currentSampleTitle, setCurrentSampleTitle] = useState(
+  const [currentSampleTitle, CurrentSampleTitle] = useState(
     AVAILABLE_WRITING_SAMPLES[0]
   );
 
@@ -13,7 +13,7 @@ export const Provider = ({ children }) => {
     currentPage,
     setCurrentPage,
     currentSampleTitle,
-    setCurrentSampleTitle,
+    CurrentSampleTitle,
   };
 
   return <Context.Provider value={value}>{children}</Context.Provider>;

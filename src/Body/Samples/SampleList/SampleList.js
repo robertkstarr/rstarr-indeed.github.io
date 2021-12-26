@@ -4,7 +4,7 @@ import { AVAILABLE_WRITING_SAMPLES } from "../WritingSamples/WritingSampleUtils"
 import { Context } from "../../../Context/Provider";
 
 const SampleList = () => {
-  const { setCurrentSampleTitle } = useContext(Context);
+  const { CurrentSampleTitle } = useContext(Context);
   return (
     <div className={"SampleList"}>
       {AVAILABLE_WRITING_SAMPLES.map((sample) => {
@@ -13,7 +13,7 @@ const SampleList = () => {
             key={sample}
             className={"SampleItem"}
             onMouseDown={() => {
-              setCurrentSampleTitle(sample);
+              CurrentSampleTitle(sample);
             }}
           >
             {sample}
