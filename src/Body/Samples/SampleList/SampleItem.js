@@ -19,8 +19,8 @@ const SampleItem = ({ sample }) => {
       </div>
       <div className={"SampleItemGenres"}>
         {writingSamples[sample].Genres.map((genre, index) => {
-          if (index == GENRE_LIST_LENGTH - 1) return <span>{genre}</span>;
-          else if (!(index == 0 && index == GENRE_LIST_LENGTH - 1))
+          if (index === GENRE_LIST_LENGTH - 1) return <span>{genre}</span>;
+          else if (!(index === 0 && index === GENRE_LIST_LENGTH - 1))
             return <span>{genre} * </span>;
           else {
             return <span>{genre}</span>;
