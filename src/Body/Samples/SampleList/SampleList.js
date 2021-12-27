@@ -1,7 +1,6 @@
 import React from "react";
-import "./SampleList.css";
-import { AVAILABLE_WRITING_SAMPLE_KEYS } from "../WritingSamples/WritingSampleUtils";
 import SampleItem from "./SampleItem";
+import { AVAILABLE_WRITING_SAMPLE_KEYS } from "../WritingSamples/WritingSampleUtils";
 
 const SampleList = () => {
   return (

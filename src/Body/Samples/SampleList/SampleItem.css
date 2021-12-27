@@ -3,6 +3,7 @@
     font-weight: bolder;
     padding: 1rem;
     width: 100%;
+    text-align: center;
 }
 
 .SampleItem:hover {

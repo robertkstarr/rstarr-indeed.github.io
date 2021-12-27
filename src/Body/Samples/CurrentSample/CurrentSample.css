@@ -22,3 +22,10 @@
 .Paragraph {
     padding: .5rem;
 }
+
+.CurrentSampleContainer {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    background-color: #000000;
+}
