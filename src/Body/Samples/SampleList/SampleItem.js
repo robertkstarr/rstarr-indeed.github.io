@@ -4,6 +4,7 @@ import { Context } from "../../../Context/Provider";
 
 const SampleItem = ({ sample }) => {
   const { CurrentSampleTitle } = useContext(Context);
+  const GENRE_LIST_LENGTH = writingSamples[sample].Genres.length;
   return (
     <div
       key={sample}
@@ -17,8 +18,13 @@ const SampleItem = ({ sample }) => {
         {writingSamples[sample].Words} words
       </div>
       <div className={"SampleItemGenres"}>
-        {writingSamples[sample].Genres.map((genre) => {
-          return <span>{genre}</span>;
+        {writingSamples[sample].Genres.map((genre, index) => {
+          if (index == GENRE_LIST_LENGTH - 1) return <span>{genre}</span>;
+          else if (!(index == 0 && index == GENRE_LIST_LENGTH - 1))
+            return <span>{genre} * </span>;
+          else {
+            return <span>{genre}</span>;
+          }
         })}
       </div>
     </div>
