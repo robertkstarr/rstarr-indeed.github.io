@@ -23,9 +23,13 @@ export const ExportWritingSample = () => {
   const convertToHTML = (text) => {
     return (
       <div>
-        {text.split("\n").map((e) => (
-          <div className={"Paragraph"}>{e}</div>
-        ))}
+        {text.split("\n").map(function (e) {
+          if (e === "*") {
+            return <div className={"Center"}>* * *</div>;
+          } else {
+            return <div className={"Paragraph"}>{e}</div>;
+          }
+        })}
       </div>
     );
   };

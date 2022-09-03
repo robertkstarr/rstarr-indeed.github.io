@@ -1,14 +1,9 @@
 .Samples {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width: 100%;
     height: 100%;
-    justify-content: left;
-}
-
-.SampleList {
-    width: 10%;
-    padding: 4rem 0rem 2rem 2rem;
+    align-items:center;
 }
 
 .CurrentSample {

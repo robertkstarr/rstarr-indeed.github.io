@@ -1,0 +1,23 @@
+.SampleList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    min-width:50%;
+}
+
+.SampleItem {
+    display: flex;
+    border-radius: 1.5rem;
+    color: white;
+    padding-left:1rem;
+    padding-right:1rem;
+    font-weight: bolder;
+    flex-direction:column;
+    justify-content: center;
+}
+
+.SampleItem:hover {
+    color: #000000;
+    background-color: #bf1e2e;
+    cursor: pointer;
+}

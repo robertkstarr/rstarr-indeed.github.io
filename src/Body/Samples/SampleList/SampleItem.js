@@ -1,7 +1,7 @@
 import writingSamples from "../WritingSamples/WritingSamples";
 import React, { useContext } from "react";
 import { Context } from "../../../Context/Provider";
-import "./SampleItem.css";
+import "./SampleList.css";
 
 const SampleItem = ({ sample }) => {
   const { CurrentSampleTitle } = useContext(Context);
