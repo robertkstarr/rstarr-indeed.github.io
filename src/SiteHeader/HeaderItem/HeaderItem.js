@@ -1,18 +1,18 @@
 import React, { useContext } from "react";
 import "./HeaderItem.css";
-import { isMobile } from "react-device-detect";
 import { Context } from "../../Context/Provider";
+import { Button } from "@mui/material";
 
 const HeaderItem = ({ headerText }) => {
   const { setCurrentPage } = useContext(Context);
   return (
-    <div
-      className={`HeaderItem ${isMobile && `isMobile`}`}
+    <Button
+      variant="contained"
+      color="primary"
       onMouseDown={() => setCurrentPage(headerText)}
     >
-      {" "}
       {headerText.toUpperCase()}
-    </div>
+    </Button>
   );
 };
 

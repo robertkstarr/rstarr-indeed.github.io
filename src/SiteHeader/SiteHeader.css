@@ -1,20 +1,24 @@
 .SiteHeader {
-    display: inline-flex;
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: wrap;
-    font-weight: bolder;
-    color: #ffffff;
-
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  font-weight: bolder;
+  color: #ffffff;
 }
 
 .SiteHeader.Desktop {
-    justify-content: space-between;
-    font-size: larger;
-    width: 80%;
+  justify-content: space-between;
+  font-size: larger;
+  width: 80%;
 }
 
 .SiteHeader.Mobile {
-    justify-content: center;
-    font-size: large;
+  justify-content: center;
+  font-size: large;
+  display: flex;
+
+  Button {
+    max-width: 5%;
+  }
 }

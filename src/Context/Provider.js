@@ -3,7 +3,7 @@ import { AVAILABLE_WRITING_SAMPLE_KEYS } from "../Body/Samples/WritingSamples/Wr
 
 export const Context = createContext();
 
-export const Provider = ({ children }) => {
+export const ContextProvider = ({ children }) => {
   const [currentPage, setCurrentPage] = useState("Home");
   const [currentSampleTitle, CurrentSampleTitle] = useState(
     AVAILABLE_WRITING_SAMPLE_KEYS[0]
@@ -19,4 +19,4 @@ export const Provider = ({ children }) => {
   return <Context.Provider value={value}>{children}</Context.Provider>;
 };
 
-export default Provider;
+export default ContextProvider;

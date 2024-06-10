@@ -1,10 +1,22 @@
 .AboutPage {
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  width: 100%;
+  height: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: left;
+  padding-top: 1rem;
+
+  img {
+    max-width: 30%;
+    padding: 1rem;
+  }
+
+  .AboutPageText {
     display: flex;
+    justify-content: flex-start;
     flex-direction: column;
-    color: #ffffff;
-    width: 100%;
-    height: 100%;
-    justify-content: left;
-    text-align: left;
-    padding: 4rem 10rem 4rem 40rem;
+  }
 }
